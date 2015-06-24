@@ -1,0 +1,14 @@
+Facebook Login
+
+Version 2.0 includes a new version of Facebook Login. It has a new design that gives people more control about the info they share with your app:
+
+Permissions are now optional to people using your app: People using your app can now choose whether or not to give you the info that you request. The login dialog offers the ability to decline any of the permissions your app requests.
+Friend list is no longer part of the default permission set and has its own permission: Asking for access to a person's friend list is now a separate permission that your app must request. The new permission is called user_friends.
+Friend list now only returns friends who also use your app: The list of friends returned via the /me/friends endpoint is now limited to the list of friends that have authorized your app.
+The default permission set called "basic info" has been removed, and replaced by "public profile": The old default permission, called basic_info has been replaced by public_profile. public_profile does not include a person's friends. Specifying it as part of the initial login request is still required on iOS and Android.
+We will review how apps use Facebook Login: Apps requesting more than public_profile, email and the user_friends permission must be reviewed by Facebook before those permissions can be requested from people. Active apps created before April 30th, 2014 have one year before they are required to go through login review, including updates to existing apps. Facebook apps created after April 30th, 2014 must go through review.
+
+
+If your app asks for more than than public_profile, email and user_friends it will require review by Facebook before your app can be used by people other than the app's developers.
+
+The time to review your app is usually about 7 business days. Some extra-sensitive permissions, as noted below, can take up to 14 business days.
