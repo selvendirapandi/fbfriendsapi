@@ -34,4 +34,8 @@ $db['default']['database'] = 'fbfriends';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 
+
+demo sql dump  :  fbfriendlist\database\fbfriends.sql
+ 
+ 
 Note: To perform Stored Procedure you should setup username and password .  We can't user  user : "root"   with  pwd :  " "
