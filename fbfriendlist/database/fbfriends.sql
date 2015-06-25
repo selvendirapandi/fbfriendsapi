@@ -48,12 +48,6 @@ CREATE TABLE IF NOT EXISTS `friendslist` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
--- Dumping data for table `friendslist`
---
-
-INSERT INTO `friendslist` (`fid`, `uid`, `name`, `oauth_fid`) VALUES
-(5, 34, 'Vasan Devpurpose', '111297065875526');
-
 -- --------------------------------------------------------
 
 --
@@ -76,12 +70,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `user_name`, `name`, `email`, `created`, `last_activity`, `oauth_uid`, `oauth_provider`, `facebookurl`, `total_friends`, `app_shared_by`) VALUES
-(34, 'Seeni Vasan', 'Seeni Vasan', 'rsv0309@gmail.com', '2015-06-23 02:58:07', '2015-06-23 03:38:49', '858422174244613', 'facebook', 'https://www.facebook.com/app_scoped_user_id/858422174244613/', 152, 0);
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
